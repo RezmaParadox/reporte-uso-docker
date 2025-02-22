@@ -105,7 +105,7 @@ Se agrega el script de pruebas en donde sea el apartado de scripts en el package
 13. **Se borra el contenido y se coloca lo siguiente:** Se cierra con Ctrl + X.
 
 ```shell notranslate position-relative overflow-auto
-    <h1> hola mundo Hello World :)! </h1>
+    <h1>Hello World :)!</h1>
 ```
 
 14. **Regresamos a la ruta principal del proyecto.**: Se crea la carpeta tests y se crea el archivo **titleTest.spec.js**.
@@ -156,9 +156,8 @@ Se agrega el script de pruebas en donde sea el apartado de scripts en el package
 * **--headless:** Desactiva la interfaz gráfica del navegador.
 * **--no-sandbox:** Desactiva la sandbox del navegador, esto permite ejecutar el navegador sin restricciones.
 * **--user-data-dir=/tmp/chrome-user-data-${Date.now()}**: Crea una carpeta temporal para almacenar los datos del navegador.
-* **--binary=/usr/bin/chromium-browser**: Especifica la ruta del navegador Chromium.
 
-16. **Se navega a la carpeta Programa y se crea la carpeta de scripts y se navega a ella.**
+1.  **Se navega a la carpeta Programa y se crea la carpeta de scripts y se navega a ella.**
 
 ```shell notranslate position-relative overflow-auto
  cd ../
